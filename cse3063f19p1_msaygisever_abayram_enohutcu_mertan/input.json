@@ -1,0 +1,452 @@
+{
+  "playerSize": "4",
+  "taxValue": "50",
+  "startMoney": "2000",
+  "goMoney": "35",
+  "jailFine": "50",
+  "threshold": "8",
+  "goToJailNumber": "3",
+  "maxHouseNumber": "32",
+  "maxHotelNumber": "12",
+  "Chance Cards": [
+    {
+      "info": "Advance to GO. (Collect GO Money)"
+    },
+    {
+      "info": "Advance to Illinois Ave. {Avenue}. If you pass Go, collect $200."
+    },
+    {
+      "info": "Advance to St. Charles Place. If you pass Go, collect GO Money. "
+    },
+    {
+      "info": "Advance token to nearest Utility. If unowned, you may buy it from the Bank. If owned, throw dice and pay owner a total 10 times the amount thrown."
+    },
+    {
+      "info": "Advance token to the nearest Railroad and pay owner twice the rental to which he/she is otherwise entitled. If Railroad is unowned, you may buy it from the Bank."
+    },
+    {
+      "info": "Bank pays you dividend of $50."
+    },
+    {
+      "info": "Get out of Jail Free. This card may be kept until needed, or traded/sold."
+    },
+    {
+      "info": "Go Back Three {3} Spaces."
+    },
+    {
+      "info": "Go to Jail. Go directly to Jail. Do not pass GO, do not collect GO Money."
+    },
+    {
+      "info": "Make general repairs on all your property: For each house pay $25, For each hotel {pay} $100."
+    },
+    {
+      "info": "Pay poor tax of $15 "
+    },
+    {
+      "info": "Take a trip to Reading Railroad. If you pass Go, collect GO Money."
+    },
+    {
+      "info": "Take a walk on the Boardwalk. Advance token to Boardwalk."
+    },
+    {
+      "info": "You have been elected Chairman of the Board. Pay each player $50."
+    },
+    {
+      "info": "Your building {and} loan matures. Receive {Collect} $150."
+    },
+    {
+      "info": "You have won a crossword competition. Collect $100."
+    }
+  ],
+  "Community Chest": [
+    {
+      "info": "Advance to Go. (Collect GO Money)"
+    },
+    {
+      "info": "Bank error in your favor. Collect $200"
+    },
+    {
+      "info": "Doctor's fees. {fee} Pay $50"
+    },
+    {
+      "info": "From sale of stock you get $50. "
+    },
+    {
+      "info": "Get Out of Jail Free."
+    },
+    {
+      "info": "Go to Jail. Go directly to jail. Do not pass Go, Do not collect GO Money. "
+    },
+    {
+      "info": "Grand Opera Night. Collect $50 from every player for opening night seats."
+    },
+    {
+      "info": "Holiday Fund matures. Receive $100."
+    },
+    {
+      "info": "Income tax refund. Collect $20"
+    },
+    {
+      "info": "It is your birthday. Collect $10 from every player. "
+    },
+    {
+      "info": "Life insurance matures – Collect $100"
+    },
+    {
+      "info": "Hospital Fees. Pay $50."
+    },
+    {
+      "info": "School fees. Pay $50."
+    },
+    {
+      "info": "Receive $25 consultancy fee."
+    },
+    {
+      "info": "You are assessed for street repairs: Pay $40 per house and $115 per hotel you own."
+    },
+    {
+      "info": "You have won second prize in a beauty contest. Collect $10."
+    },
+    {
+      "info": "You inherit $100."
+    }
+  ],
+  "properties": [
+    {
+      "name": "Old Kent Rd",
+      "color": "Brown",
+      "cost": 60,
+      "rent": 2,
+      "rent1": 10,
+      "rent2": 30,
+      "rent3": 90,
+      "rent4": 160,
+      "hotel": 250,
+      "mortgage": 30,
+      "pricePerHouse": 50
+    },
+    {
+      "name": "Whitechapel Rd",
+      "color": "Brown",
+      "cost": 60,
+      "rent": 4,
+      "rent1": 20,
+      "rent2": 60,
+      "rent3": 180,
+      "rent4": 320,
+      "hotel": 450,
+      "mortgage": 30,
+      "pricePerHouse": 50
+    },
+    {
+      "name": "The Angel",
+      "color": "Blue",
+      "cost": 100,
+      "rent": 6,
+      "rent1": 30,
+      "rent2": 90,
+      "rent3": 270,
+      "rent4": 400,
+      "hotel": 550,
+      "mortgage": 50,
+      "pricePerHouse": 50
+    },
+    {
+      "name": "Euston Rd",
+      "color": "Blue",
+      "cost": 100,
+      "rent": 6,
+      "rent1": 30,
+      "rent2": 90,
+      "rent3": 270,
+      "rent4": 400,
+      "hotel": 550,
+      "mortgage": 50,
+      "pricePerHouse": 50
+    },
+    {
+      "name": "Pentonville Rd",
+      "color": "Blue",
+      "cost": 120,
+      "rent": 8,
+      "rent1": 40,
+      "rent2": 100,
+      "rent3": 300,
+      "rent4": 450,
+      "hotel": 600,
+      "mortgage": 60,
+      "pricePerHouse": 50
+    },
+    {
+      "name": "Pall Mall",
+      "color": "Pink",
+      "cost": 140,
+      "rent": 10,
+      "rent1": 50,
+      "rent2": 150,
+      "rent3": 450,
+      "rent4": 625,
+      "hotel": 750,
+      "mortgage": 70,
+      "pricePerHouse": 100
+    },
+    {
+      "name": "Whitehall",
+      "color": "Pink",
+      "cost": 140,
+      "rent": 10,
+      "rent1": 50,
+      "rent2": 150,
+      "rent3": 450,
+      "rent4": 625,
+      "hotel": 750,
+      "mortgage": 70,
+      "pricePerHouse": 100
+    },
+    {
+      "name": "Northumberland Ave",
+      "color": "Pink",
+      "cost": 160,
+      "rent": 12,
+      "rent1": 60,
+      "rent2": 180,
+      "rent3": 500,
+      "rent4": 700,
+      "hotel": 900,
+      "mortgage": 80,
+      "pricePerHouse": 100
+    },
+    {
+      "name": "Bow St",
+      "color": "Orange",
+      "cost": 180,
+      "rent": 14,
+      "rent1": 70,
+      "rent2": 200,
+      "rent3": 550,
+      "rent4": 750,
+      "hotel": 950,
+      "mortgage": 90,
+      "pricePerHouse": 100
+    },
+    {
+      "name": "Marlborough St",
+      "color": "Orange",
+      "cost": 180,
+      "rent": 14,
+      "rent1": 70,
+      "rent2": 200,
+      "rent3": 550,
+      "rent4": 750,
+      "hotel": 950,
+      "mortgage": 90,
+      "pricePerHouse": 100
+    },
+    {
+      "name": "Vine St",
+      "color": "Orange",
+      "cost": 200,
+      "rent": 16,
+      "rent1": 80,
+      "rent2": 220,
+      "rent3": 600,
+      "rent4": 800,
+      "hotel": 1000,
+      "mortgage": 100,
+      "pricePerHouse": 100
+    },
+    {
+      "name": "Strand",
+      "color": "Red",
+      "cost": 220,
+      "rent": 18,
+      "rent1": 90,
+      "rent2": 250,
+      "rent3": 700,
+      "rent4": 875,
+      "hotel": 1050,
+      "mortgage": 110,
+      "pricePerHouse": 150
+    },
+    {
+      "name": "Fleet St",
+      "color": "Red",
+      "cost": 220,
+      "rent": 18,
+      "rent1": 90,
+      "rent2": 250,
+      "rent3": 700,
+      "rent4": 875,
+      "hotel": 1050,
+      "mortgage": 110,
+      "pricePerHouse": 150
+    },
+    {
+      "name": "Trafalgar Sq",
+      "color": "Red",
+      "cost": 240,
+      "rent": 20,
+      "rent1": 100,
+      "rent2": 300,
+      "rent3": 750,
+      "rent4": 925,
+      "hotel": 1100,
+      "mortgage": 120,
+      "pricePerHouse": 150
+    },
+    {
+      "name": "Leicester Sq",
+      "color": "Yellow",
+      "cost": 260,
+      "rent": 22,
+      "rent1": 110,
+      "rent2": 330,
+      "rent3": 800,
+      "rent4": 975,
+      "hotel": 1150,
+      "mortgage": 130,
+      "pricePerHouse": 150
+    },
+    {
+      "name": "Coventry St",
+      "color": "Yellow",
+      "cost": 260,
+      "rent": 22,
+      "rent1": 110,
+      "rent2": 330,
+      "rent3": 800,
+      "rent4": 975,
+      "hotel": 1150,
+      "mortgage": 130,
+      "pricePerHouse": 150
+    },
+    {
+      "name": "Piccadilly",
+      "color": "Yellow",
+      "cost": 280,
+      "rent": 24,
+      "rent1": 120,
+      "rent2": 360,
+      "rent3": 850,
+      "rent4": 1025,
+      "hotel": 1200,
+      "mortgage": 140,
+      "pricePerHouse": 150
+    },
+    {
+      "name": "Regent St",
+      "color": "Green",
+      "cost": 300,
+      "rent": 26,
+      "rent1": 130,
+      "rent2": 390,
+      "rent3": 900,
+      "rent4": 1100,
+      "hotel": 1275,
+      "mortgage": 150,
+      "pricePerHouse": 200
+    },
+    {
+      "name": "Oxford St",
+      "color": "Green",
+      "cost": 300,
+      "rent": 26,
+      "rent1": 130,
+      "rent2": 390,
+      "rent3": 900,
+      "rent4": 1100,
+      "hotel": 1275,
+      "mortgage": 150,
+      "pricePerHouse": 200
+    },
+    {
+      "name": "Bond St",
+      "color": "Green",
+      "cost": 320,
+      "rent": 28,
+      "rent1": 150,
+      "rent2": 450,
+      "rent3": 1000,
+      "rent4": 1200,
+      "hotel": 1400,
+      "mortgage": 160,
+      "pricePerHouse": 200
+    },
+    {
+      "name": "Park Lane",
+      "color": "Navy Blue",
+      "cost": 350,
+      "rent": 35,
+      "rent1": 175,
+      "rent2": 500,
+      "rent3": 1100,
+      "rent4": 1300,
+      "hotel": 1500,
+      "mortgage": 175,
+      "pricePerHouse": 200
+    },
+    {
+      "name": "Mayfair",
+      "color": "Navy Blue",
+      "cost": 400,
+      "rent": 50,
+      "rent1": 200,
+      "rent2": 600,
+      "rent3": 1400,
+      "rent4": 1700,
+      "hotel": 2000,
+      "mortgage": 200,
+      "pricePerHouse": 200
+    }
+  ],
+  "utilities": [
+    {
+      "name": "Electric",
+      "price": 150,
+      "rate": 4,
+      "mortgage": 75
+    },
+    {
+      "name": "Water",
+      "price": 150,
+      "rate": 4,
+      "mortgage": 75
+    }
+  ],
+  "transport": [
+    {
+      "name": "Reading Railroad",
+      "fine": 50,
+      "price": 200,
+      "mortgage": 100
+    },
+    {
+      "name": "Pennsylvania Railroad",
+      "fine": 50,
+      "price": 200,
+      "mortgage": 100
+    },
+    {
+      "name": "Short Line",
+      "fine": 50,
+      "price": 200,
+      "mortgage": 100
+    },
+    {
+      "name": "B&Q Railroad",
+      "fine": 50,
+      "price": 200,
+      "mortgage": 100
+    }
+  ],
+  "tax": [
+    {
+      "name": "Income Tax",
+      "fine": 20
+    },
+    {
+      "name": "Luxury Tax",
+      "fine": 10
+    }
+  ]
+}
